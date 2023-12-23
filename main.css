@@ -1,0 +1,130 @@
+
+html {
+//  font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+//    font-size: 16px;
+    font-weight: 900;
+    color: #ffff;
+    background-color: #000;
+    min-width: 320px;
+}
+
+
+main {
+ 
+width:  1920px;
+    margin: 0 auto;
+//background-color: #001;
+}
+    
+img {
+        padding-top: 20px;
+    }
+    
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    //font-size: 16px;
+    font-weight: 900;
+    color: #ffff;
+}
+
+
+.bg_top_left {
+    width: 20%;    
+    z-index: -1;
+    
+}
+
+#logo_top img{
+    width: 20%; 
+    
+}
+#banner {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#slider {
+    width: 75%;
+    margin: 50px auto;    
+}
+
+
+#tariffs {
+    margin: 60px auto;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+
+.text_green {
+    color: #9CD500;
+    font-size: 28px;
+}
+
+#logo_bot img{
+    width: 30%; 
+}
+
+#text_bot {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.img_speed {
+    width: 45%;
+    float: right;
+    margin-top: -15%;
+    margin-right: -170px;
+}
+    .button_green {
+        background-image: linear-gradient(to right, #E4F600, #9CD500, #82C01C);
+        font-size: 100%;    
+}
+
+.input_bg {
+    background-color: #000;
+    border-width: 2px;
+    border-color: #9CD500;
+    
+}
+
+
+.input_bg:focus {
+    background-color: #000;
+    border-width: 2px;
+    border-color: #9CD500;
+    border-spacing: 10px;
+    color: #fff;
+    
+}
+
+.input_bg::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.input_bg::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #fff;
+}
+
+
+.modal_style {
+    background-color: #000;
+    border-width: 2px;
+    border-color: #9CD500;
+    color: #9CD500;
+    text-align: center;
+    
+}
+
+.modal_style p{
+    font-weight: 900;
+    font-size: 22px;
+}
