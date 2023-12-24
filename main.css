@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
 //    font-size: 16px;
@@ -11,18 +12,22 @@ body {
     color: #ffff;
     background-color: #000;
     min-width: 320px;
+   margin-left: -170px;
+  //  height:100%;
+  //  overflow-y: scroll
 }
 
 
 main {
  
-    width:  1920px;
+    max-width:  1920px;
     margin: 0 auto;
 //background-color: #001;
+     overflow:hidden;
 }
     
 img {
-        padding-top: 20px;
+       // padding-top: 20px;
     }
     
 h1 {
@@ -33,12 +38,18 @@ h1 {
     color: #ffff;
 }
 
-
 .bg_top_left {
     width: 20%;    
     z-index: -1;
     
 }
+.bg_top_right {
+    width: 20%;    
+    z-index: -1;
+    position:fixed;
+    right: 0px;
+}
+   
 
 #logo_top img{
     width: 20%; 
@@ -58,13 +69,13 @@ h1 {
 #tariffs h1{
     //margin: 60px auto;
     
-    font-size: 52px;
+//    font-size: 52px;
 }
 
-#tariffs1 h1{
+.tariffs1 h1{
     //margin: 60px auto;
     
-    font-size: 3.8vw;
+    font-size: 3.7vw;
 }
 
 
@@ -75,7 +86,7 @@ h1 {
 }
 .text_green1 {
     color: #9CD500;
-    font-size: 3vw;
+    font-size: 2.7vw;
     font-weight: 900;
 }
 
@@ -91,15 +102,17 @@ h1 {
 
 .text_bot1 {
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.7vw;
+    
 }
 
 
 .img_speed {
-    width: 45%;
+    width: 30%;
     float: right;
-    margin-top: -15%;
-    margin-right: -170px;
+    margin-top: -12%;
+    padding-right: -170px;
+    z-index: -1;
 }
     .button_green {
         background-image: linear-gradient(to right, #E4F600, #9CD500, #82C01C);
