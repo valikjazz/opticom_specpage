@@ -7,33 +7,23 @@ body {
     
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-//    font-size: 16px;
     font-weight: 900;
     color: #ffff;
     background-color: #000;
     min-width: 320px;
-   margin-left: -170px;
-  //  height:100%;
-  //  overflow-y: scroll
+ //  margin-left: -170px;
 }
 
 
 main {
  
     max-width:  1920px;
-    margin: 0 auto;
-//background-color: #001;
-     overflow:hidden;
+    overflow:hidden;
 }
-    
-img {
-       // padding-top: 20px;
-    }
     
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    //font-size: 16px;
     font-weight: 900;
     color: #ffff;
 }
@@ -66,25 +56,13 @@ h1 {
 }
 
 
-#tariffs h1{
-    //margin: 60px auto;
-    
-//    font-size: 52px;
-}
 
-.tariffs1 h1{
-    //margin: 60px auto;
-    
+.tariffs h1{
     font-size: 3.7vw;
 }
 
 
 .text_green {
-    color: #9CD500;
-    font-size: 46px;
-    font-weight: 900;
-}
-.text_green1 {
     color: #9CD500;
     font-size: 2.7vw;
     font-weight: 900;
@@ -95,12 +73,8 @@ h1 {
     width: 30%; 
 }
 
-#text_bot {
-    font-weight: 700;
-    font-size: 22px;
-}
 
-.text_bot1 {
+.text_bot {
     font-weight: 700;
     font-size: 1.7vw;
     
@@ -110,8 +84,7 @@ h1 {
 .img_speed {
     width: 30%;
     float: right;
-    margin-top: -12%;
-    padding-right: -170px;
+    margin-top: -11%;
     z-index: -1;
 }
     .button_green {
@@ -155,5 +128,4 @@ h1 {
 
 .modal_style p{
     font-weight: 900;
-    //font-size: 22px;
 }
